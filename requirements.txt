@@ -1,0 +1,12 @@
+# CPU torch is enough (and faster than GPU for these tiny MLPs):
+#   pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu
+flappy-bird-gymnasium==0.4.0
+gymnasium==1.4.0
+numpy==2.4.6
+torch==2.14.1
+matplotlib==3.11.2
+imageio==2.38.1
+pillow==13.0.0
+pygame==2.6.1
+# optional, only for the PPO sanity check (agents/sb3_ppo.py):
+# stable-baselines3==2.9.0
